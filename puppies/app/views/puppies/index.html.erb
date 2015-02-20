@@ -1,0 +1,9 @@
+<h1>SHOW LIST OF PUPPIES</h1>
+
+<% @puppie.each do |puppie| %>
+      <li><%= puppie.name %> <a href="/puppies"></a></li>
+<% end %>
+<br>
+<a href="/puppies/new">Add new Puppie</a>
+
+
